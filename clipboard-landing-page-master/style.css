@@ -1,0 +1,36 @@
+.body {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: "Bai Jamjuree", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: center;
+}
+
+.logo {
+    margin: 70px auto 35px;
+    width: 100px;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.title-text h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.title-text p {
+    color: hsl(201, 11%, 66%);
+    font-size: 13px;
+    font-weight: 400;
+}
