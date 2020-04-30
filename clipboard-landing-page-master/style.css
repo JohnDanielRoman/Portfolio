@@ -2,23 +2,24 @@
     box-sizing: border-box;
     font-size: 18px;
     font-family: "Bai Jamjuree", sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    text-align: center;
+    width: 1080px;
 }
 
-.header-logo {
-    display: flex;
-    flex-wrap: no-wrap;
-    justify-content: center;
-}
 
-.logo {
-    margin: 70px auto 35px;
-    width: 100px;
+/* ---------------------Header--------------------------- */
+
+.first-header .logo {
+    margin: 80px auto 35px;
+    width: 95px;
 }
 
 .title-text {
-    text-align: center;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title-text h1 {
@@ -29,8 +30,116 @@
     padding: 0;
 }
 
-.title-text p {
+.first-p {
     color: hsl(201, 11%, 66%);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
+    margin: 0 auto;
+    padding-top: 15px;
+    line-height: 22px;
+}
+
+
+/* ----------Buttons---------- */
+
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.top-green {
+    border: 0;
+    border-bottom: 1.5px solid hsl(171, 70%, 31%);
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 20px;
+    margin: 0;
+    margin-right: 5px;
+    padding: 0 25px;
+    line-height: 3;
+    box-shadow: 1px 3px 10px rgba(116, 208, 194, 0.5);
+}
+
+.top-blue {
+    border: 0;
+    border-bottom: 1.5px solid hsl(233, 54%, 50%);
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 20px;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0 25px;
+    line-height: 3;
+    box-shadow: 1px 3px 10px rgba(105, 171, 204, 0.5);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* -----x-----Buttons-----x----- */
+
+
+/* ----------x-----------Header-----------------x---------- */
+
+
+/* --------------------Second header---------------- */
+
+.second-header h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.second-header p {
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 550px;
+    padding-top: 15px;
+    line-height: 22px;
+}
+
+
+/* ----------Section one---------- */
+
+.section-1 {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    padding-top: 80px;
+    width: 1080px;
+}
+
+.monitor img {
+    width: 550px;
+}
+
+.text {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.text h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.text p {
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 550px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    line-height: 22px;
 }
