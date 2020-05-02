@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    width: 1080px;
+    width: 83%;
 }
 
 
@@ -13,7 +13,7 @@
 
 .first-header .logo {
     margin: 80px auto 35px;
-    width: 95px;
+    width: 11.4%;
 }
 
 .title-text {
@@ -24,7 +24,7 @@
 
 .title-text h1 {
     color: hsl(210, 10%, 33%);
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 600;
     margin: 0 auto;
     padding: 0;
@@ -32,11 +32,12 @@
 
 .first-p {
     color: hsl(201, 11%, 66%);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     margin: 0 auto;
     padding-top: 15px;
-    line-height: 22px;
+    line-height: 30px;
+    width: 45%;
 }
 
 
@@ -51,11 +52,11 @@
     border: 0;
     border-bottom: 1.5px solid hsl(171, 70%, 31%);
     background-color: hsl(171, 66%, 44%);
-    border-radius: 20px;
+    border-radius: 40px;
     margin: 0;
-    margin-right: 5px;
-    padding: 0 25px;
-    line-height: 3;
+    margin-right: 10px;
+    padding: 0 60px;
+    line-height: 4;
     box-shadow: 1px 3px 10px rgba(116, 208, 194, 0.5);
 }
 
@@ -63,17 +64,18 @@
     border: 0;
     border-bottom: 1.5px solid hsl(233, 54%, 50%);
     background-color: hsl(233, 100%, 69%);
-    border-radius: 20px;
+    border-radius: 40px;
     margin: 0;
-    margin-left: 5px;
-    padding: 0 25px;
-    line-height: 3;
+    margin-left: 10px;
+    padding: 0 60px;
+    line-height: 4;
     box-shadow: 1px 3px 10px rgba(105, 171, 204, 0.5);
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-size: 16px;
 }
 
 
@@ -87,7 +89,7 @@ a {
 
 .second-header h1 {
     color: hsl(210, 10%, 33%);
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 600;
     margin: 0 auto;
     padding: 0;
@@ -95,12 +97,12 @@ a {
 
 .second-header p {
     color: hsl(201, 11%, 66%);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     margin: 0 auto;
-    width: 550px;
+    width: 45%;
     padding-top: 15px;
-    line-height: 22px;
+    line-height: 1.8;
 }
 
 
@@ -108,25 +110,28 @@ a {
 
 .section-1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
     margin: 0;
     padding-top: 80px;
-    width: 1080px;
+    width: 1200;
 }
 
 .monitor img {
-    width: 550px;
+    width: 80%;
+    margin-right: 60px;
 }
 
 .text {
     text-align: left;
     margin-top: 15px;
-    margin-left: 90px;
+    padding-bottom: 35px;
 }
 
 .text h1 {
     color: hsl(210, 10%, 33%);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     margin: 0 auto;
     padding: 0;
@@ -142,4 +147,174 @@ a {
     padding-top: 5px;
     padding-bottom: 10px;
     line-height: 22px;
+}
+
+
+/* -----x-----Section one----x------ */
+
+
+/* ----------Section two---------- */
+
+.section2 {
+    padding-top: 100px;
+}
+
+.section2 h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section2 img {
+    padding-bottom: 50px;
+    padding-top: 80px;
+    width: 700px;
+}
+
+.section2 p {
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 15px;
+    line-height: 1.8;
+}
+
+.workflow {
+    display: flex;
+    padding-top: 60px;
+}
+
+.blacklists {
+    width: calc(100%/3);
+}
+
+.blacklist-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blacklist-about {
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.snippets {
+    width: calc(100%/3);
+    margin: 0 10%;
+}
+
+.snippets-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.snippets-about {
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.preview {
+    width: calc(100%/3);
+}
+
+.preview-title {
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.preview-about {
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.workflow,
+.workflow-logo {
+    padding-bottom: 40px;
+}
+
+.blacklist-title,
+.snippets-title,
+.preview-title {
+    box-sizing: content-box;
+    padding-bottom: 20px;
+}
+
+.bottom-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-section {
+    padding-top: 130px;
+}
+
+.bottom-section h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bottom-section p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-top: 15px;
+    line-height: 1.7;
+    width: 50%;
+}
+
+.buttons-bottom {
+    padding-top: 30px;
+}
+
+footer {
+    background-color: hsl(195, 22%, 96%);
+    margin-top: 100px;
+    min-width: 1200;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.menu-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menu-footer div {
+    font-size: 16px;
+    justify-content: center;
+    width: 200px;
+    margin: 10px 0px;
+}
+
+.logo-bottom {
+    float: left;
+    place-items: center;
+    margin-left: 30px;
+    padding-right: 100px;
+    width: 50px;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: right;
 }
