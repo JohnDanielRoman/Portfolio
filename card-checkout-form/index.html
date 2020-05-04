@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="payment">
+            <!-- <div class="payment-logo">
+                <img src="./icons/cc-mastercard-brands.svg" alt="cardlogo">
+            </div>
+            <div class="payment-logo">
+                <img src="./icons/cc-visa-brands.svg" alt="cardlogo">
+            </div>
+            <div class="payment-logo">
+                <img src="./icons/cc-paypal-brands.svg" alt="cardlogo">
+            </div> -->
+            <h2>Payment Gateway</h2>
+            <div class="form">
+                <div class="card space icon-relative">
+                    <label class="label">Card holder name</label>
+                    <input type="text" class="input" name="card_holder_name" placeholder="Card holder">
+                    <img src="./icons/user-solid.svg" alt="user">
+                </div>
+                <div class="card space icon-relative">
+                    <label class="label">Card number</label>
+                    <input type="text" class="input" name="card_number" placeholder="Card Number" data-mask="0000 0000 0000 0000">
+                    <img src="./icons/credit-card-regular.svg" alt="credit card">
+                </div>
+                <div class="card-grp space">
+                    <div class="card-item icon-relative">
+                        <label class="label">Expiration date</label>
+                        <input type="text" class="input" name="expiration_date" placeholder="00 / 00" data-mask="00 / 00">
+                        <img src="./icons/calendar-alt-regular.svg" alt="calendar">
+                    </div>
+                    <div class="card-item icon-relative">
+                        <label class="label">CVC</label>
+                        <input type="text" class="input" name="cvc" placeholder="000" data-mask="000">
+                        <img src="./icons/lock-solid.svg" alt="lock">
+                    </div>
+                </div>
+                <div class="btn">pay</div>
+            </div>
+        </div>
+    </div>
+
+    <script <script src="https://code.jquery.com/jquery-3.5.0.min.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+</body>
+
+</html>
