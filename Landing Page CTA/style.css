@@ -1,0 +1,66 @@
+body {
+    box-sizing: border-box;
+    border: 2px solid blue;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+.title h3 {
+    margin: 0;
+}
+
+.title h1 {
+    margin: 0;
+    border-lenght: 1px;
+}
+
+.title hr {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50px;
+    float: left;
+    margin: 0;
+    margin-top: 11px;
+    padding: 0;
+}
+
+.title p {
+    width: 500px;
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 9px;
+}
+
+.logo {
+    width: 70%;
+    height: 40px;
+    padding-left: 300px;
+    padding-top: 15px;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header-left {
+    background: hsl(180, 4%, 95%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+    padding: 40px 90px;
+    width: 70%;
+    height: 100%;
+}
+
+.price {
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 70px;
+    height: 70px;
+}
