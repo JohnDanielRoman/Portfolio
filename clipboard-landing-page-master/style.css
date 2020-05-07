@@ -252,8 +252,10 @@ a {
 }
 
 .bottom-logo {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 30px;
 }
 
 .bottom-section {
@@ -283,6 +285,9 @@ a {
 }
 
 footer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
     background-color: hsl(195, 22%, 96%);
     margin-top: 100px;
     min-width: 1200;
